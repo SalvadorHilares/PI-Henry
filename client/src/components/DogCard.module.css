@@ -1,0 +1,41 @@
+.DogCard{
+    display: grid;
+    grid-template-columns: repeat(auto-fill, 280px);
+    gap: 80px;
+    justify-content: center;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    padding-left: 50px;
+}
+
+.img{
+    background-color: white;
+    width: 300px;
+    height: 250px;
+    border-radius: 50px;
+    border: solid rgb(0, 0, 0);
+}
+
+.h3{
+    background-color: white;
+    color: rgb(37, 95, 181);
+    font-size: 23px;
+    border-radius: 50px;
+    text-justify: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: solid rgb(0, 0, 0);
+}
+
+.link{
+    background-color: white;
+    color: red;
+    border-radius: 50px;
+    text-decoration: none;
+    font-size: 1.5rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: solid rgb(0, 0, 0);
+}

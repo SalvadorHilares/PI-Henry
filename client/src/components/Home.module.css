@@ -1,0 +1,41 @@
+.home{
+    width: 100%;
+    min-height: 100vh;
+    background-image: url('../img/fondo2.jpg');
+}
+
+.input{
+    padding : 0 10px;
+    margin  : 0;
+    background : white;
+    color: black;
+}
+
+.h1{
+    padding: 1rem;
+    font-size: 3rem;
+    color: rgb(255, 255, 255);
+    text-shadow: -3px -3px 3px #0000DF, 3px -3px 3px #0000DF, -3px 3px 3px #0000DF, 3px 3px 3px #0000DF;
+}
+
+.select{
+    border: 3rem;
+    font-size: 20px;
+}
+
+.buttom{
+    width: 150px;
+    height: 30px;
+    font-size: 22px;
+    background: rgb(188, 114, 126);
+    text-align: center;
+    color: #ffffff;
+    border: none;
+    margin-right: 50px;
+    transition: 0.5s;
+    border-radius: 24px;
+}
+
+.buttom:hover{
+    background:rgb(32, 141, 180);
+}
